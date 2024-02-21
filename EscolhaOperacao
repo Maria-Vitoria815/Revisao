@@ -1,0 +1,73 @@
+import java.util.Scanner;
+//Questão 2
+
+public class EscolhaOperacao {
+	
+public static void main(String[] args) {
+		
+	    Scanner input = new Scanner(System.in);
+        System.out.print("Insira dois valores\n");
+        System.out.print("\nValor 1: ");
+        int valor1 = input.nextInt();
+        System.out.print("\nValor 2: ");
+        int valor2 = input.nextInt();
+        
+        
+        System.out.print("\n\nQual operação você deseja realizar? ");
+        System.out.print("\n1 -  Soma");
+        System.out.print("\n2 - Subtração");
+        System.out.print("\n3 - Multiplicação");
+        System.out.print("\n4 - Divisão");
+        Scanner input2 = new Scanner(System.in);
+        int operacao = input2.nextInt();
+        
+  
+
+        
+        switch (operacao) {
+        
+        case 0:
+        	System.out.print("\nOpção inválida");
+        	break;
+        	
+        case 1:
+      
+                System.out.println("\n" + valor1 + "+" + valor2 + "=" + (valor1+valor2));
+             
+                break;
+            
+        	
+        case 2:
+        	
+                
+                System.out.println("\n" + valor1 + "-" + valor2 + "=" + (valor1-valor2));
+            
+                break;
+            
+        	
+        case 3:
+        	
+                
+                System.out.println("\n" + valor1 + "x" + valor2 + "=" + (valor1*valor2));
+           
+                break;
+            
+        	
+        case 4:
+       
+                System.out.println("\n" + valor1 + "/" + valor2 + "=" + (valor1/valor2));
+             
+                break;
+            
+        default: 
+        	
+        	System.out.println("Opção inválida");
+
+        	
+        }
+        
+      		
+        
+        }
+      
+}

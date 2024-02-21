@@ -1,0 +1,21 @@
+import java.util.Scanner;
+//Questão 1
+
+public class Tabuada {
+	
+public static void main(String[] args) {
+		
+	    Scanner input = new Scanner(System.in);
+        System.out.print("Insira um número para exibir sua tabuada: ");
+        int numero = input.nextInt();
+        
+        int i = 0;
+        
+		while (i <= 10) {
+          
+            System.out.println("\n" + numero + "×" + i + "=" + (numero*i));
+            i++;
+        }
+    }
+
+}
