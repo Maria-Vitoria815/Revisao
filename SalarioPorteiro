@@ -1,0 +1,25 @@
+import java.util.Scanner;
+//Questão 6
+
+public class SalarioPorteiro {
+	
+	public static void main(String[] args) {
+	        
+	        System.out.print("Digite o número de horas trabalhadas: ");
+	        Scanner scanner = new Scanner(System.in);
+	        double numeroHoras = scanner.nextDouble();
+	       
+	        double valorHora = 12.25;
+	        double salario = numeroHoras * valorHora;
+	        
+	        System.out.println("\n\nCalculando...\n\n");
+			System.out.println("Salário a ser recebido: R$ " + salario);
+	       
+	        
+	    }
+	    
+
+		
+		
+	}
+
